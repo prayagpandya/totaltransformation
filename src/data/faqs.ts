@@ -1,0 +1,10 @@
+import type { Faq } from '../types/content';
+
+export const faqs: Faq[] = [
+{ category: 'Getting started', question: 'What is life coaching, and how is it different from therapy?', answer: 'Life coaching is a forward-focused partnership that helps you gain clarity, build habits and take intentional action. It is not a medical or psychological treatment. If you are experiencing a mental health concern, we recommend speaking with a qualified healthcare professional — One Wellness Clinic & Research Center can guide you to the right support.' },
+{ category: 'Getting started', question: 'How do I know which programme is right for me?', answer: 'Start with a discovery session. We will talk about where you are and what you want to change, then recommend the pathway and programme that fits you best.' },
+{ category: 'Getting started', question: 'Is the free assessment a diagnostic test?', answer: 'No. The Transformation Assessment is a self-reflection tool to help you notice where you are across clarity, balance, mindfulness and consistency. It is not a medical or psychological assessment.' },
+{ category: 'Programmes', question: 'Are sessions held online or in person?', answer: 'Session formats are confirmed during your discovery conversation, based on your location, schedule and the programme you choose.' },
+{ category: 'Programmes', question: 'Are programme fees fixed?', answer: 'Programme fees are indicative and may vary depending on your final personalised coaching plan. An initial consultation is recommended before enrolment.' },
+{ category: 'Programmes', question: 'What happens after a programme ends?', answer: 'The final stage of every journey is integration — making sure new habits and perspectives become part of everyday life. Ongoing support options can be discussed as you complete your programme.' },
+{ category: 'Privacy', question: 'Is what I share kept confidential?', answer: 'Yes. Coaching conversations are treated with care and confidentiality. Please avoid sharing sensitive clinical or medical information through WhatsApp or general enquiry forms.' }];
