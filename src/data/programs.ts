@@ -8,7 +8,7 @@ export const programs: Program[] = [
   slug: 'happiness-reset',
   name: 'Happiness Reset',
   duration: '4 Weeks',
-  price: '₹7,500',
+  price: '₹32,000',
   tagline: 'A gentle reset for your emotional wellbeing.',
   description:
   'A focused four-week programme to pause, reconnect with what brings you joy and build simple daily practices for a lighter, more positive state of mind.',
@@ -22,7 +22,7 @@ export const programs: Program[] = [
   slug: 'mindful-life',
   name: 'Mindful Life',
   duration: '8 Weeks',
-  price: '₹15,000',
+  price: '₹64,000',
   tagline: 'Presence, calm and focus — built into everyday life.',
   description:
   'An eight-week journey into practical mindfulness: managing stress and overthinking, building attention and creating rituals that keep you grounded.',
@@ -34,9 +34,9 @@ export const programs: Program[] = [
 },
 {
   slug: 'total-life-transformation',
-  name: 'Total Life Transformation',
+  name: 'Total Transformation',
   duration: '12 Weeks',
-  price: '₹25,000',
+  price: '₹72,000',
   tagline: 'Our signature journey through Aware, Align, Awaken and Achieve.',
   description:
   'A comprehensive twelve-week transformation that moves through every stage of our method — from honest awareness to lasting, integrated action across mindset, habits and purpose.',
@@ -51,7 +51,7 @@ export const programs: Program[] = [
   slug: 'executive-transformation',
   name: 'Executive Transformation',
   duration: '12 Weeks',
-  price: '₹45,000',
+  price: '₹96,000',
   tagline: 'Sustained performance, without losing yourself.',
   description:
   'A twelve-week programme for leaders and high-performing professionals focused on clarity, emotional steadiness, energy and meaningful work–life integration.',

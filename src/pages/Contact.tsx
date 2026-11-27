@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { MailIcon, MapPinIcon, MessageCircleIcon, PhoneIcon } from 'lucide-react';
+import { ExternalLinkIcon, MailIcon, MapPinIcon, MessageCircleIcon, PhoneIcon } from 'lucide-react';
 import { site } from '../data/site';
 import { programs } from '../data/programs';
 import { whatsappLink } from '../utils/contact';
@@ -36,7 +36,8 @@ export function Contact() {
               <ul className="mt-8 space-y-5 text-[15px] text-charcoal/80">
                 {phone && <li className="flex gap-3"><PhoneIcon className="mt-0.5 h-5 w-5 text-gold" aria-hidden /><a href={`tel:${phone}`}>{phone}</a></li>}
                 {email && <li className="flex gap-3"><MailIcon className="mt-0.5 h-5 w-5 text-gold" aria-hidden /><a href={`mailto:${email}`}>{email}</a></li>}
-                {address && <li className="flex gap-3"><MapPinIcon className="mt-0.5 h-5 w-5 text-gold" aria-hidden /><span>{address}</span></li>}
+                {site.url && <li className="flex gap-3"><ExternalLinkIcon className="mt-0.5 h-5 w-5 text-gold" aria-hidden /><a href={site.url} target="_blank" rel="noopener noreferrer">{site.url.replace(/^https?:\/\//, '')}</a></li>}
+                {address && <li className="flex gap-3"><MapPinIcon className="mt-0.5 h-5 w-5 shrink-0 text-gold" aria-hidden /><span className="whitespace-pre-line">{address}</span></li>}
                 {!phone && !email && !address && <li className="text-sm text-charcoal/55">Phone, email and address will be published here soon.</li>}
                 <li className="flex gap-3">
                   <MessageCircleIcon className="mt-0.5 h-5 w-5 text-gold" aria-hidden />

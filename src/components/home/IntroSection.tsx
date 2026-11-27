@@ -34,9 +34,9 @@ export function IntroSection() {
           </div>
         </div>
         <div className="lg:col-span-4 lg:col-start-9 lg:pt-28">
-          <ParallaxImage src={media.images.intro} alt="A woman sitting peacefully in a meadow at golden hour" className="aspect-[4/5] w-full rounded-t-[999px]" />
+          <ParallaxImage src={media.images.intro} alt="Three women laughing together beneath the words Happiness is not a destination. It is a way of living." strength={0} className="aspect-[768/953] w-full rounded-t-[999px]" />
           <p className="mt-5 flex items-center gap-3 text-xs uppercase tracking-[0.25em] text-charcoal/50">
-            <span className="h-px w-8 bg-gold" aria-hidden /> Pause · Reflect · Choose
+            <span className="h-px w-8 bg-gold" aria-hidden /> Happiness is not a destination. It is a way of living.
           </p>
         </div>
       </div>

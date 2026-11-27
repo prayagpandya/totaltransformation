@@ -11,7 +11,7 @@ import { FinalCtaSection } from '../components/home/FinalCtaSection';
 export function Programs() {
   return (
     <>
-      <Seo title="Signature Programs" description="Happiness Reset, Mindful Life, Total Life Transformation and Executive Transformation — structured coaching programmes for lasting change." />
+      <Seo title="Signature Programs" description="Happiness Reset, Mindful Life, Total Transformation and Executive Transformation — structured coaching programmes for lasting change." />
       <PageHero
         variant="full"
         eyebrow="Signature Programs"

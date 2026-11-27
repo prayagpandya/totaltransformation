@@ -28,7 +28,7 @@ export const navigation: NavGroup[] = [
   { label: 'All Signature Programs', to: '/programs', description: 'Compare every pathway' },
   { label: 'Happiness Reset', to: '/programs/happiness-reset', description: '4 weeks' },
   { label: 'Mindful Life', to: '/programs/mindful-life', description: '8 weeks' },
-  { label: 'Total Life Transformation', to: '/programs/total-life-transformation', description: '12 weeks' },
+  { label: 'Total Transformation', to: '/programs/total-life-transformation', description: '12 weeks' },
   { label: 'Executive Transformation', to: '/programs/executive-transformation', description: '12 weeks' }]
 
 },

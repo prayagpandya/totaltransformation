@@ -4,8 +4,8 @@
 // cinematic zoom, so nothing breaks while they are blank.
 export const media = {
   images: {
-    hero: "/11542ca0-60ce-46a3-a1bd-54dee0b6d9af.jpg",
-    intro: "/adefb17a-7418-4fd0-b34f-808f5c559d8b.jpg",
+    hero: "/ttc-pause-reflect-choose.png",
+    intro: "/ttc-happiness-is-living.png",
     innerWorld: "/9f4f4700-8ff1-4484-bdd3-7eacb4ced3bb.jpg",
     aware: "/4ffd1719-2f3c-4d90-bdee-35819197e174.jpg",
     align: "/2efb5cc3-8065-4f1f-a645-c67a3408260e.jpg",

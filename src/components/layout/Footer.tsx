@@ -57,7 +57,8 @@ export function Footer() {
             <ul className="mt-6 space-y-3 text-sm text-ivory/75">
               {phone && <li><a href={`tel:${phone}`} className="font-medium text-ivory hover:text-gold transition-colors">{phone}</a></li>}
               {email && <li><a href={`mailto:${email}`} className="hover:text-ivory transition-colors">{email}</a></li>}
-              {address && <li className="leading-relaxed">{address}</li>}
+              {site.url && <li><a href={site.url} target="_blank" rel="noopener noreferrer" className="hover:text-ivory transition-colors">{site.url.replace(/^https?:\/\//, '')}</a></li>}
+              {address && <li className="whitespace-pre-line leading-relaxed">{address}</li>}
               {hours && <li className="text-xs text-ivory/60">{hours}</li>}
               <li>
                 <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 font-medium text-gold hover:text-ivory transition-colors">
